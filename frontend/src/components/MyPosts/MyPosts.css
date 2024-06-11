@@ -1,0 +1,27 @@
+.blog-post img{
+    height: 200px;
+}
+.blog-post{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+    margin: 32px 23px;
+}
+.content{
+    padding: 23px;
+}
+
+.content a{
+ text-decoration: none;
+ color: black;
+ font-size: 33px;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.user-details img{
+    height: 20px;
+}
+.updation img{
+    height: 50px;
+}

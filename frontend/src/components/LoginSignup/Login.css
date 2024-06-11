@@ -1,0 +1,10 @@
+.container {
+    margin: 13px 172px;
+    padding: 22px 165px;
+    height: 500px;
+}
+.container input {
+    height: 39px;
+    width: 439px;
+    margin: 13px;
+}

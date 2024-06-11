@@ -1,0 +1,90 @@
+
+/*Intro*/
+.carousel-item {
+    position: relative;
+  }
+  .carousel-item.active{
+    display: block;
+    height: 640px;
+  }
+  .text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .text-on-image h3 {
+    font-size: 4.75rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-on-image p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-on-image button {
+    background-color: transparent;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px 20px;
+    border: solid 2px white;
+    margin-top: 20px;
+    color: white;
+    font-size: 1rem;
+  }
+  /*Cards*/
+  .cards {
+    display: flex;
+    margin: 58px 0px;
+    padding: 75px 142px;
+    align-items: center;
+    gap: 86px;
+    flex-wrap: wrap;
+    background: #252525;
+  }
+  
+  .card {
+    width: 18rem;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  /*Newsletter*/
+  .newsletter{
+    border: solid 2px black;
+    height: 408px;
+    padding: 25px;
+    display: flex;
+    gap: 47px;
+  }
+  .newsletter img{
+    height: 228px;
+  }
+  .content input{
+    padding: 36px;
+    height: 56px;
+    width: 338px;
+    padding: 17px;
+    border-radius: 6px;
+  }
+  .content button{
+    margin: 24px 0px;
+    height: 51px;
+    width: 320px;
+    border-radius: 10px
+  }
+  .content button:hover{
+    border: solid white 2px;
+    background-color: #252525;
+    color: white;
+  }

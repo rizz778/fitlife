@@ -1,0 +1,13 @@
+.footer {
+    background-color: black; /* Sets the background color of the footer to black */
+    color: white; /* Sets the text color to white */
+  }
+  
+  .footer a {
+    color: white; /* Ensures that links within the footer are also white */
+  }
+  
+  .footer a:hover {
+    color: lightgray; /* Optional: changes the color of links when hovered */
+  }
+  
