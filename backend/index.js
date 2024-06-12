@@ -13,6 +13,16 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 4000;
 const mongodb_url = process.env.MONGODB_URL;
+//React Routing
+const path = require('path');
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+// Catch-all route to serve index.html for client-side routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
 
 // Middleware
 app.use(cors());

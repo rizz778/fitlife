@@ -1,0 +1,19 @@
+/*Cards*/
+.cards {
+    display: flex;
+    margin: 58px 0px;
+    padding: 75px 142px;
+    align-items: center;
+    gap: 86px;
+    flex-wrap: wrap;
+    background: #252525;
+  }
+  
+  .card {
+    width: 18rem;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
